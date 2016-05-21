@@ -1,3 +1,5 @@
+#include "../include/my_copy.h"
+
 int copyFile(char source[], char dest[])
 {
    char temp[CP_SIZE];

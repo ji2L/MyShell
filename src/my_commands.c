@@ -1,3 +1,5 @@
+#include "../include/my_commands.h"
+
 void changeDir(char** args){
    char* buffer = (char*)malloc(LENGTH * sizeof(char));
 

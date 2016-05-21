@@ -1,3 +1,5 @@
+#include "../include/my_history.h"
+
 void addHistory(char* string, char* path)
 {
    FILE* fp;

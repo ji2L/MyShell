@@ -1,3 +1,5 @@
+#include "../include/my_parsing.h"
+
 int getString(char *string, int length)
 {
    char *entryPosition = NULL;
@@ -5,12 +7,6 @@ int getString(char *string, int length)
    /*on lit le texte saisi*/
    if(fgets(string, length, stdin) != 0)
    {
-      int i = 0;
-      while(string[i] != '\0')
-      {
-	 printf("string%d : %c\n", i, string[i]);
-	 i++;
-      }
       /*on cherche le \n ajoute automatiquement par fgets*/
       entryPosition = strchr(string, '\n');
       /*si on en trouve un, on le remplace par \0*/
