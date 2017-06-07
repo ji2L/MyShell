@@ -1,4 +1,4 @@
-# System-project
+# MyShell
 Assignment : simple implementation of a Unix shell
 
 ## How to use
